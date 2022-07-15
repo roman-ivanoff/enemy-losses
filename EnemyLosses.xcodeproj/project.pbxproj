@@ -56,15 +56,23 @@
 		FDECCBE52881E1C800096542 /* EnemyLosses */ = {
 			isa = PBXGroup;
 			children = (
-				FDECCBE62881E1C800096542 /* AppDelegate.swift */,
-				FDECCBE82881E1C800096542 /* SceneDelegate.swift */,
+				FDECCBFA2881E21200096542 /* Supporting Files */,
 				FDECCBEA2881E1C800096542 /* ViewController.swift */,
 				FDECCBEC2881E1C800096542 /* Main.storyboard */,
+			);
+			path = EnemyLosses;
+			sourceTree = "<group>";
+		};
+		FDECCBFA2881E21200096542 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDECCBE62881E1C800096542 /* AppDelegate.swift */,
+				FDECCBE82881E1C800096542 /* SceneDelegate.swift */,
 				FDECCBEF2881E1CA00096542 /* Assets.xcassets */,
 				FDECCBF12881E1CA00096542 /* LaunchScreen.storyboard */,
 				FDECCBF42881E1CA00096542 /* Info.plist */,
 			);
-			path = EnemyLosses;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,10 +296,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EnemyLosses/Info.plist;
+				INFOPLIST_FILE = "EnemyLosses/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,10 +324,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EnemyLosses/Info.plist;
+				INFOPLIST_FILE = "EnemyLosses/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
